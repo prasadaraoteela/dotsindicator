@@ -16,7 +16,7 @@ import androidx.dynamicanimation.animation.SpringAnimation
 import androidx.dynamicanimation.animation.SpringForce
 import com.tbuonomo.viewpagerdotsindicator.BaseDotsIndicator.Type.SPRING
 
-class SpringDotsIndicator @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null,
+open class SpringDotsIndicator @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null,
         defStyleAttr: Int = 0) : BaseDotsIndicator(context, attrs, defStyleAttr) {
 
   companion object {
